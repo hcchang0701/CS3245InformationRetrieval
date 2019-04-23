@@ -103,8 +103,8 @@ with open(file_of_queries, 'r') as f:
                     continue
                 
                 # check whether the term is duplicate
-                if tok in termList.keys():
-                    termList[tok][1] += 1
+                if idx in termList.keys():
+                    termList[idx] += 1
                     continue
                 
                 print(tok)
